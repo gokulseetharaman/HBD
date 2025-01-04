@@ -88,6 +88,11 @@
     border: 3px solid #1abc9c; /* Border around the entire content box */
     background-color: #F4C2C2;
     overflow: hidden; /* To contain floated elements */
+    text-align: justify;
+}
+.content-box p{
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .photo {
@@ -113,30 +118,6 @@ img {
     box-sizing: border-box; /* Include border in the width calculation */
 }
 
-.content-box1 {
-    width: 80%;
-    margin: 20px auto;
-    position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 3px solid #e75480; /* Border around the entire content box */
-    background-color: #d5ffff;
-    overflow: hidden; /* To contain floated elements */
-}
-
-.photo1 {
-    padding: 20px;
-    width: 26%;
-    float: right;
-    height: 100%;
-    box-sizing: border-box; /* Include border in the width calculation */
-}
-
-.text1 {
-    width: 60%;
-    float: left;
-    padding: 20px;
-    height: 100%;
-}
 
 .Gifts{
 text-align: center;
